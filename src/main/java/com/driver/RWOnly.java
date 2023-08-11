@@ -2,14 +2,13 @@ package com.driver;
 
 public class RWOnly {
 
-    private int accountBalance;
+    private String name;
 
-    public int getAccountBalance() {
-        return accountBalance;
+    public String getName() {
+        return name;
     }
 
-    public void setAccountBalance(int accountBalance) {
-        this.accountBalance = accountBalance;
+    public void setName(String name) {
+        this.name = name;
     }
-
 }
